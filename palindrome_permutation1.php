@@ -1,4 +1,11 @@
 <?php
+/** 
+ * This version is not fully efficient and
+ *  Time complexity is also not good as
+ *  it is O(n^2)
+ *  in version 2 (palindrome_permutation2.php)
+ *  is more efficient and has a better Time complexity 
+*/
 function canBeTurnedIntoAPalindrome($drome){
   // If we've found a letter that has no match, the center letter.
   $centerUsed = false;
